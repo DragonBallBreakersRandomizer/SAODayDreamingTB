@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SAOUI';
-    src: url('./styles/fonts/sao-ui/SAOUI-Regular.otf') format('truetype');
+    src: url('/styles/fonts/sao-ui/SAOUITT-Regular.ttf');
   }
 table, th, td {
     border: 1px solid black;
@@ -9,7 +9,7 @@ table, th, td {
 }
 body{
     
-    background-image: url(/styles/imgs/SkullReaper.png);
+    background-image: url('./styles/imgs/SkullReaper.png');
     background-size: cover;
     font-family: 'SAOUI', sans-serif;
     /*height: 100vh;
