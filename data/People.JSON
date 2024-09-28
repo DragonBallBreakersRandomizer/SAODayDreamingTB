@@ -22,7 +22,7 @@
   ],
   "characters": {
     "Fighter": ["Kirito", "Asuna", "Lisbeth", "Klein"],
-    "Tank": ["Agil", "Heathcliff", "Alice"],
+    "Tank": ["Agil", "Heathcliff", "Alice","Strea"],
     "Rogue": ["Argo", "LLENN", "Nautilus", "Yuuki"],
     "Ranger": ["Sinon", "Fukaziroh", "Death Gun"],
     "Mage": ["Administrator", "Eugeo", "Oberon"],
