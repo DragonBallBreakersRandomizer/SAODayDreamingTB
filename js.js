@@ -24,14 +24,14 @@ function createTable(index){
     table.setAttribute('id', `table_${index}`);
     //Header row
     const headerRow = table.insertRow();
-    headerRow.innerHTML = '<th>Person</th><th>Character</th><th>Class</th><th>Validation</th>';
+    headerRow.innerHTML = '<th>Person</th><th>Character</th><th>Class</th>';
     // Table Rows
     for (let i = 0; i < 4; i++) {
         const row = table.insertRow();
         const personCell = row.insertCell();
         const characterCell = row.insertCell();
         const classCell = row.insertCell();
-        const validationCell = row.insertCell();
+        
 
         classCell.setAttribute('id', `class_${index}_${i}`);
 
