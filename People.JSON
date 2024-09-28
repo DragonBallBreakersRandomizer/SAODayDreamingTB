@@ -1,0 +1,33 @@
+{
+    "people": [
+        {"name": "Enrique", "characters": ["Eugeo", "Yuuki", "Alice"]},
+        {"name": "Aqua", "characters": ["Silica", "Yuuki", "Argo", "Yuna", "Asuna", "Leafa", "Fukaziroh"]},
+        {"name": "Ankles", "characters": ["Yuna", "Asuna"]},
+        {"name": "Michael", "characters": ["Eugeo", "Death Gun"]},
+        {"name": "Kalwei", "characters": ["Argo", "Alice", "Asuna", "Fukaziroh", "Yuuki"]},
+        {"name": "Axelin", "characters": ["Kirito"]},
+        {"name": "Dragonskull", "characters": ["LLENN", "Sinon", "Death Gun", "Argo"]},
+        {"name": "Brock", "characters": ["Argo"]},
+        {"name": "Haxune", "characters": ["Argo", "Kirito", "Asuna", "Leafa"]},
+        {"name": "Hasan", "characters": ["Agil"]},
+        {"name": "Cookie", "characters": ["Sinon", "Kirito", "LLENN", "Klein"]},
+        {"name": "Shenron", "characters": ["Sinon", "Argo", "Death Gun", "Yuuki", "Heathcliff", "Klein"]},
+        {"name": "Ranzoms", "characters": ["LLENN", "Oberon", "Alice"]},
+        {"name": "KockZ", "characters": ["Sinon", "Leafa"]},
+        {"name": "Nalafelle", "characters": ["Administrator", "Alice", "Kirito", "Asuna", "Yuuki"]},
+        {"name": "Tatsumaki", "characters": ["Alice", "Administrator", "Yuuki"]},
+        {"name": "Arisu", "characters": ["Oberon"]},
+        {"name": "KevKild", "characters": ["Leafa", "Strea"]},
+        {"name": "CrownlessOcto", "characters": ["Kirito", "LLENN", "Yuuki", "Sinon", "Death Gun"]}
+
+    // placeholder to cp/pt { "name": "","characters": [] },
+  ],
+  "characters": {
+    "Fighter": ["Kirito", "Asuna", "Lisbeth", "Klein"],
+    "Tank": ["Agil", "Heathcliff", "Alice"],
+    "Rogue": ["Argo", "LLENN", "Nautilus", "Yuuki"],
+    "Ranger": ["Sinon", "Fukaziroh", "Death Gun"],
+    "Mage": ["Administrator", "Eugeo", "Oberon"],
+    "Support": ["Leafa", "Silica", "Yuna", "Yui"]
+  }
+}
