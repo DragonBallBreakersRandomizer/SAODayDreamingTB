@@ -19,9 +19,6 @@
         {"name": "Arisu", "characters": ["Oberon"]},
         {"name": "KevKild", "characters": ["Leafa", "Strea"]},
         {"name": "CrownlessOcto", "characters": ["Kirito", "LLENN", "Yuuki", "Sinon", "Death Gun"]}
-
-    // placeholder to cp/pt { "name": "","characters": [] },
-    // blah blah
   ],
   "characters": {
     "Fighter": ["Kirito", "Asuna", "Lisbeth", "Klein"],

@@ -1,10 +1,20 @@
 let peopleData = [];
 let charactersData = [];
-fetch('./data/People.JSON').then(response => response.json).then(data =>{
-    peopleData = data.people;
-    charactersData = data.characters
-    updateTables();
-});
+fetch('data/People.JSON')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        peopleData = data.people;
+        charactersData = data.characters;
+        updateTables();
+    })
+    .catch(error => {
+        console.error('Error loading JSON file:', error);
+    });
 
 function updateTables () {
     const numTables = document.getElementById("tableSlider").value;
