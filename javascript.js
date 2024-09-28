@@ -50,7 +50,7 @@ function createTable(index){
     const validationCell = validationRow.insertCell();
     validationCell.setAttribute('colspan', '4');
     validationCell.setAttribute('id', `validation_${index}`);
-    validationCell.innerText = 'T';
+    validationCell.innerText = 'Vaild';
 
     return table;
 }
@@ -152,9 +152,9 @@ function validateTable(tableIndex) {
     }
     // Check class limits
     if (tankCount > 1 || mageCount > 1 || supportCount > 1) {
-        document.getElementById(`validation_${tableIndex}`).innerText = 'False';
+        document.getElementById(`validation_${tableIndex}`).innerText = 'Not Balenced';
     } else {
-        document.getElementById(`validation_${tableIndex}`).innerText = 'T';
+        document.getElementById(`validation_${tableIndex}`).innerText = 'Vaild';
     }
 }
 // Get the currently selected characters for a given table
